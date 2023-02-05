@@ -4,7 +4,7 @@ body {
     line-height: 1.6;
     font-size: 18px;
     color: #444;
-    padding: 0 10px
+    padding: 0 10px;
 }
 
 h1,
@@ -17,5 +17,11 @@ ul {
 }
 
 a {
-    color: inherit
+    color: inherit;
+    border-radius: 0.2rem;
+    font-weight: lighter;
+}
+
+a:hover {
+    font-weight: bold;
 }
