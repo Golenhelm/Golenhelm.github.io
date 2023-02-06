@@ -129,6 +129,8 @@ h6 {
     cursor: pointer;
     border: none;
     padding: 0.25rem 1rem 0.25rem 1rem;
+
+    transition: 0.3s;
 }
 
 .button-primary {
@@ -139,7 +141,6 @@ h6 {
 .button-primary:hover {
     background-color: #414143;
     color: #d7e037;
-    transition: 100ms;
 }
 
 .button-secondary {
@@ -150,7 +151,7 @@ h6 {
 .button-secondary:hover {
     background-color: #414143;
     color: #FAFAFA;
-    transition: 100ms;
+    
 }
 
 .text-centre {
